@@ -1,0 +1,32 @@
+.header-section{
+    background-color:antiquewhite;
+}
+.div-container{
+    display: flex;
+    justify-content:space-around;
+
+}
+.header{
+    width: 704px;
+    height: 506px;
+    padding: 5px 0px 5px 5px;
+}
+.header-text{
+    font-size: 50px;
+
+
+}
+
+.heading-paragraph{
+
+
+}
+.header-image{
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+#submit {
+    font-size: 25px;
+    color: red;
+
+}
