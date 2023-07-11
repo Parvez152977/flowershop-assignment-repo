@@ -3,13 +3,14 @@
 }
 .div-container{
     display: flex;
-    justify-content:space-around;
-
+    justify-content:space-between;
+    margin: 40px;
 }
 .header{
-    width: 704px;
+    justify-content: center;
+    width: 600px;
     height: 506px;
-    padding: 5px 0px 5px 5px;
+    padding: 15px;
 }
 .header-text{
     font-size: 50px;
@@ -18,15 +19,28 @@
 }
 
 .heading-paragraph{
-
-
+    margin: 5px 0px 5px 5px ;
 }
 .header-image{
-    margin-right: 0px;
-    margin-bottom: 0px;
+    
 }
 #submit {
+    background-color: red;
     font-size: 25px;
-    color: red;
+    color: black;
+    margin-top: 15px;
+}
+#footer{
+    background-color: black;
+    justify-content: center;
+    margin: 40px;
+}
+.footer-text{
+    text-align: center;
+    color: blue;
+}
+.footer-paragraph{
+    color: white;
+    text-align: center;
 
 }
