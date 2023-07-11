@@ -1,3 +1,6 @@
+.section-header{
+    background-color:antiquewhite;
+}
 .header-section{
     background-color:antiquewhite;
 }
@@ -6,10 +9,10 @@
     justify-content: space-between;
 }
 .header{
-    text-align: left;
-    
+    padding: 200px 0px 200px 150px;
     width: 600px;
     height: 506px;
+    justify-content: space-between;
 }
 
 .header-text{
@@ -30,6 +33,10 @@
     border-radius: 10px;
     padding: 10px;
 }
+#header-image{
+    justify-content: center;
+    object-position: bottom;
+}
 /* section 2 */
 .feature-header{
     font-family: sans-serif;
@@ -47,10 +54,12 @@
 }
 p.feature-text:hover{
     text-decoration-color: rgb(183, 230, 230);
+    cursor:pointer;
 }
 /* section 3 */
 .hot-section{
     background-color: bisque;
+    padding-top: 50px;
 }
 nav {
     display: flex;
@@ -65,13 +74,14 @@ nav {
     padding: 25px 400px 15px 400px;
 }
 .sign-up{
-    position: absolute;
     background-color: red;
     font-size: 25px;
     color: black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
 }
 .button-sign-up{
-    position:relative;
+    text-align: center;
 }
 /* section footer */
 .footer{
