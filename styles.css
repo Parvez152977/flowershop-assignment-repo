@@ -9,7 +9,9 @@
     justify-content: space-between;
 }
 .header{
-    padding: 200px 0px 200px 150px;
+    padding-left: 150px;
+    
+   
     width: 600px;
     height: 506px;
     justify-content: space-between;
@@ -34,8 +36,7 @@
     padding: 10px;
 }
 #header-image{
-    justify-content: center;
-    object-position: bottom;
+    padding-top: 95px;
 }
 /* section 2 */
 .feature-header{
@@ -83,6 +84,46 @@ nav {
 .button-sign-up{
     text-align: center;
 }
+/* flower section */
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+nav.image-nav{
+    display: flex;
+    justify-content: space-between;
+    flex: content;
+}
+
+/* .image-demo{ 
+    max-height: 1px;
+    max-width: 1px;
+} */
+/* adding background image section */
+.background-image{
+    background-image: url("./images/Rectangle 9.png");
+    height: 250px;
+    width:auto;
+    margin: 50px;
+    padding: 100px;
+
+}
+.deal{
+    text-align: center;
+}
+.input{
+    padding-left: 380px;
+    padding-top: 20px;
+    
+}
+.btn{
+    background-color: red;
+    color: rgb(24, 44, 4);
+    border-radius: 10px;
+}
+
+
 /* section footer */
 .footer{
     background-color: black;
