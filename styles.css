@@ -21,26 +21,26 @@
 .heading-paragraph{
     margin: 5px 0px 5px 5px ;
 }
-.header-image{
-    
-}
+
 #submit {
     background-color: red;
     font-size: 25px;
     color: black;
     margin-top: 15px;
 }
-#footer{
+.footer{
     background-color: black;
-    justify-content: center;
-    margin: 40px;
+    padding: 50px;
 }
 .footer-text{
     text-align: center;
-    color: blue;
+    color: rgb(217, 217, 231);
+    font-size: 25px;
+    padding-top: 20px;
 }
 .footer-paragraph{
     color: white;
     text-align: center;
+    padding: 20px;
 
 }
