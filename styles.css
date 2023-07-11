@@ -48,19 +48,45 @@
 p.feature-text:hover{
     text-decoration-color: rgb(183, 230, 230);
 }
+/* section 3 */
+.hot-section{
+    background-color: bisque;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.hot-deal{
+    text-align: center;
+
+}
+.hot-deal-text{
+    text-align: center;
+    padding: 25px 400px 15px 400px;
+}
+.sign-up{
+    position: absolute;
+    background-color: red;
+    font-size: 25px;
+    color: black;
+}
+.button-sign-up{
+    position:relative;
+}
+/* section footer */
 .footer{
     background-color: black;
     padding: 50px;
 }
 .footer-text{
+    font-family: sans-serif;
     text-align: center;
     color: rgb(217, 217, 231);
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 20px;
 }
 .footer-paragraph{
     color: white;
     text-align: center;
     padding: 20px;
-
 }
