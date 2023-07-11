@@ -10,6 +10,7 @@
 }
 .header{
     padding-left: 150px;
+    padding-top: 150px;
     
    
     width: 600px;
@@ -56,6 +57,26 @@
 p.feature-text:hover{
     text-decoration-color: rgb(183, 230, 230);
     cursor:pointer;
+
+}
+/* my section */
+.click{
+    text-align: center;
+    margin: 50px;
+}
+/* new section */
+.pink-flower{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    margin: 100px;
+    padding: 50px;
+    align-items: center;
+}
+.A{
+    text-align: center;
+   
+
 }
 /* section 3 */
 .hot-section{
